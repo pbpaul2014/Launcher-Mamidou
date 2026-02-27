@@ -1,0 +1,13 @@
+nav
+{text-align: center}
+ul
+{text-align: right}
+.conteneur-blocs {
+  display: flex;
+  justify-content: space-between; /* ou center / flex-start / flex-end */
+  align-items: flex-start;        /* ou center pour aligner verticalement */
+}
+
+#meteo, #prog tv #titre et barre {
+  flex: 1;           /* même largeur */
+  margin: 0 10px;    /* petit espace entre les deux */
