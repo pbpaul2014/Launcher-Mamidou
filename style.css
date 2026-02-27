@@ -10,4 +10,4 @@ ul
 
 #meteo, #prog tv #titre et barre {
   flex: 1;           /* même largeur */
-  margin: 0 10px;    /* petit espace entre les deux */
+  margin: 0 10 px;    /* petit espace entre les deux */
