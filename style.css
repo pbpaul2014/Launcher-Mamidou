@@ -2,16 +2,3 @@ nav
 {text-align: center}
 ul
 {text-align: right}
-.container {
-    display: flex;
-    justify-content: space-between; /* ou flex-start, center, etc. */
-    align-items: center; /* aligne verticalement */
-    gap: 10 px; /* espace entre les éléments */
-    padding: 10 px;
-    background: #f0f0f0;
-}
-
-.titre et barre, .prog tv, .meteo {
-    border: 1 px solid #ccc; /* pour visualiser les boîtes */
-    padding: 10 px;
-    flex: 1; /* pour que chaque élément prenne l'espace disponible */
