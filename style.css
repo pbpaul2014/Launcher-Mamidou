@@ -2,12 +2,16 @@ nav
 {text-align: center}
 ul
 {text-align: right}
-.conteneur-blocs {
-  display: flex;
-  justify-content: space-between; /* ou center / flex-start / flex-end */
-  align-items: flex-start;        /* ou center pour aligner verticalement */
+.container {
+    display: flex;
+    justify-content: space-between; /* ou flex-start, center, etc. */
+    align-items: center; /* aligne verticalement */
+    gap: 10 px; /* espace entre les éléments */
+    padding: 10 px;
+    background: #f0f0f0;
 }
 
-#meteo, #prog tv #titre et barre {
-  flex: 1;           /* même largeur */
-  margin: 0 10 px;    /* petit espace entre les deux */
+.titre et barre, .prog tv, .meteo {
+    border: 1 px solid #ccc; /* pour visualiser les boîtes */
+    padding: 10 px;
+    flex: 1; /* pour que chaque élément prenne l'espace disponible */
